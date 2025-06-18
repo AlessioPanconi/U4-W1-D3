@@ -1,12 +1,22 @@
 package Ese1;
 
 public class Rettangolo {
-    public double l1;
-    public double l2;
+    private double l1;
+    private double l2;
 
     // Costruttore
     public Rettangolo(double l1, double l2) {
         this.l1 = l1;
+        this.l2 = l2;
+    }
+
+    //Setter
+
+    public void setL1(double l1) {
+        this.l1 = l1;
+    }
+
+    public void setL2(double l2) {
         this.l2 = l2;
     }
 
